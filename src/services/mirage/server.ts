@@ -57,4 +57,4 @@ export const setupServer = (env?: string): Server => {
       this.put('/diaries/:id', diary.updateDiary);
     },
   });
-}
+};
